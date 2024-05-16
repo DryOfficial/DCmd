@@ -5,4 +5,14 @@ registry = "test"
 [[package]]
 name = "harvey/dcmd"
 version = "0.1.0"
+dependencies = [["Roact", "roblox/roact@1.4.4"], ["Rodux", "roblox/rodux@3.0.0"]]
+
+[[package]]
+name = "roblox/roact"
+version = "1.4.4"
+dependencies = []
+
+[[package]]
+name = "roblox/rodux"
+version = "3.0.0"
 dependencies = []
